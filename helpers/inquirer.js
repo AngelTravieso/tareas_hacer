@@ -48,14 +48,12 @@ const inquirerMenu = async() => {
 
     const { opcion } = await inquirer.prompt(preguntas);
 
-
-
     return opcion;
 
 }
 
 const pausa= async() => {
-    const quiestion = [
+    const question = [
         {
             type: 'input',
             name: 'enter',
@@ -64,7 +62,7 @@ const pausa= async() => {
     ];
 
     console.log('\n');
-    await inquirer.prompt(quiestion);
+    await inquirer.prompt(question);
 }
 
 
