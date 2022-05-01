@@ -1,5 +1,10 @@
 require('colors');
-const { inquirerMenu, pausa, leerInput } = require('./helpers/inquirer');
+
+const { 
+    inquirerMenu,
+    pausa,
+    leerInput 
+} = require('./helpers/inquirer');
 const Tareas = require('./models/tareas');
 
 const main = async() => {
@@ -8,6 +13,7 @@ const main = async() => {
     const tareas = new Tareas();
 
     do {
+        // Imprimir el menú
         opt = await inquirerMenu();
 
         switch(opt) {
@@ -19,7 +25,7 @@ const main = async() => {
             break;
             case '2':
                 // Listar las opciones
-                console.log(tareas._listado);
+                console.log(tareas.listadoArr);
             break;
         }
 
