@@ -19,7 +19,7 @@ const leerDB = () => {
     // Convierte un JSON a un objecto JS
     const data = JSON.parse( info );
 
-    console.log(data);
+    // console.log(data);
 
     return data;
 
