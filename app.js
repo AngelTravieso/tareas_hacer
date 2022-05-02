@@ -13,6 +13,8 @@ const Tareas = require('./models/tareas');
 
 const main = async() => {
 
+    console.clear();
+
     let opt = '';
     const tareas = new Tareas();
 
