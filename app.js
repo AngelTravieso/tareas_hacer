@@ -33,12 +33,16 @@ const main = async() => {
                 // Crear opocion
                 const desc = await leerInput('Descripción:');
                 tareas.crearTarea( desc );
-
             break;
             case '2':
-                // Listar las opciones
-                console.log(tareas.listadoArr);
+                tareas.listadoCompeto();
             break;
+            case '3':
+                tareas.listarPendientesCompletadas(true);
+            break;
+            case '4':
+                tareas.listarPendientesCompletadas(false);
+                break;
         }
 
         guardarDB( tareas.listadoArr );

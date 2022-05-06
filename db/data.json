@@ -7,7 +7,7 @@
     {
         "id": "3d4932d3-44c8-4c25-9fb7-4703258a8c45",
         "desc": "comer",
-        "completadoEn": null
+        "completadoEn": "true"
     },
     {
         "id": "4513f9b4-75f4-4442-8e6d-bd7816927ec7",
@@ -17,6 +17,6 @@
     {
         "id": "df05756b-6911-42c7-b923-4d3fe6cd1387",
         "desc": "universidad",
-        "completadoEn": null
+        "completadoEn": "true"
     }
 ]
